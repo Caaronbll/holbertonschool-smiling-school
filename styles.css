@@ -13,13 +13,13 @@ header {
     }
 }
 
-#Carousel-of-quotes {
+#carousel-section {
     height: 392px;
     background-color: #C271FF;
 }
 
 @media (max-width: 576px) {
-    #Carousel-of-quotes {
+    #carousel-section {
         height: 591px;
     }
 }
@@ -27,4 +27,8 @@ header {
 footer {
     background-color: #071629;
     height: 249px;
+}
+
+#registerbutton {
+    background-color: #C271FF;
 }
