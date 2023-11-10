@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+
+    <!-- Given bootstrap links for project -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Holberton style sheet -->
+    <link rel="stylesheet" href="holberton_school-icon/style.css">
+    <!-- Custom style sheet -->
+    <link rel="stylesheet" href="navstyles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm py-3">
+          <div class="container">
+            <!-- collapsable button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
+                <span class="holberton_school-icon-menu text-white"></span>
+            </button>
+
+            <!-- middle smiley logo -->
+            <div class="text-center navbar-brand d-sm-none ">
+                <a class="">
+                    <img src="images/smile_off.png" width="30" height="23">
+                    <img src="images/logo.png" width="115" height="30">
+                </a>
+            </div>
+            <!-- top left smiley logo -->
+            <div>
+                <a class="navbar-brand d-none d-sm-block mx-auto">
+                    <img src="images/smile_off.png" width="30" height="23">
+                    <img src="images/logo.png" width="115" height="30">
+                </a>
+            </div>
+
+            <!-- top right links -->
+            <div class="d-none d-sm-block">
+                <div class="row">
+                    <a class="nav-link text-white" href="#COURSES">COURSES</a>
+                    <a class="nav-link text-white" href="#PRICING">PRICING</a>
+                    <a class="nav-link text-white" href="#LOGIN">LOGIN</a>
+                </div>
+            </div>
+          </div>
+          <!-- navbar collapsed links -->
+            <div class="collapse navbar-collapse-sm" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#COURSES" class="nav-link text-white">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#PRICING" class="nav-link text-white">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#LOGIN" class="nav-link text-white">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+</body>
+</html>
