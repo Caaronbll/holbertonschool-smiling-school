@@ -1,34 +1,37 @@
-
 header {
     background-image: url("images/pic_1.jpg");
+    height: 1093px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 1093px;
+}
+
+#getschooled {
+    font-size: 120px;
 }
 
 @media (max-width: 576px) {
-    header {
-        height: 1386px;
+    #getschooled {
+        font-size: 61px;
     }
 }
 
-#carousel-section {
+#register {
+    background-color: #C271FF;
+    border: lightgrey;
+    font-style: none;
+}
+
+nav {
+    margin-bottom: 156px;
+}
+
+#Carousel-of-quotes {
     height: 392px;
     background-color: #C271FF;
 }
 
 @media (max-width: 576px) {
-    #carousel-section {
+    #Carousel-of-quotes {
         height: 591px;
     }
-}
-
-footer {
-    background-color: #071629;
-    height: 249px;
-}
-
-#registerbutton {
-    background-color: #C271FF;
 }
