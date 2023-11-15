@@ -1,6 +1,6 @@
-header {
+#homepage-header {
     background-image: url("images/pic_1.jpg");
-    height: 1093px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -21,18 +21,20 @@ header {
     font-style: none;
 }
 
+
+
 nav {
     margin-bottom: 156px;
 }
 
 #Carousel-of-quotes {
-    height: 392px;
+    height: 320px;
     background-color: #C271FF;
 }
 
 @media (max-width: 576px) {
     #Carousel-of-quotes {
-        height: 591px;
+        height:px;
     }
 }
 
@@ -42,4 +44,20 @@ nav {
 
 #Free-membership {
     background-color: #071629;
+}
+
+#footer-color {
+    background-color: #071629;
+    height: 249px;
+}
+
+#watermark {
+    opacity: 0.3517;
+}
+
+#pricing-header {
+    background-image: url("images/pic_2.jpg");
+    height: 1093px;
+    background-position:center;
+    background-repeat: no-repeat;
 }

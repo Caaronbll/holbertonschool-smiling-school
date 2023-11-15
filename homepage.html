@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <header>
+    <header id="homepage-header">
         <nav class="navbar navbar-expand-sm pt-3 pb-0 mb-156px">
           <div class="container" id="navbutton">
             <!-- collapsable button -->
@@ -73,28 +73,27 @@
           </div>
           <p class="text-center text-white">SMILES&emsp;&emsp;&emsp;GRIN&emsp;&emsp;&emsp;LAUGH</p>
           <h4 class="text-center py-3 pb-5 mb-5"><a href="#"><span class="badge badge-pill">REGISTER FOR FREE</span></a></h4>
-          
           <div style="display: flex; justify-content: space-between;"></div>
           <div><p class="text-white text-center py-5" style=" font-size: 32px; font-weight: 300;"><span style="color: #C271FF; font-weight: 700;">Learn</span> from the pros</p></div>
           <div class="container-sm">
             <div class="container">
                 <div class="row row-calls justify-content-around">
-                  <div class="col-3 text-center text-white">
+                  <div class="col-lg-3 col-md-3  col-sm-6 text-center text-white">
                     <img src="images/profile_1.jpg" alt="prfl-1" class="rounded-circle" height="150px">
                     <h6 class="pt-3">Phillip Massey</h6>
                     <p6 width="150px" style="font-size: 16px;" class="font-italic">« Smile of the year »<br>2018 - 2019</p6>
                   </div>
-                  <div class="col-3 text-center text-white">
+                  <div class="col-lg-3 col-md-3  col-sm-6 text-center text-white">
                     <img src="images/profile_2.jpg" alt="prfl-1" class="rounded-circle" height="150px">
                     <h6 class="pt-3">Nannie Lawrence</h6>
                     <p6 width="150px" style="font-size: 16px;" class="font-italic">Best « little smile »<br>2017</p6>
                   </div>
-                  <div class="col-3 text-center text-white">
+                  <div class="col-lg-3 col-md-3  col-sm-6 text-center text-white">
                     <img src="images/profile_3.jpg" alt="prfl-1" class="rounded-circle" height="150px">
                     <h6 class="pt-3">Bruce Walters</h6>
                     <p6 width="150px" style="font-size: 16px;" class="font-italic" >Best « Friend Smile »<br>live performance 2019</p6>
                   </div>
-                  <div class="col-3 text-center text-white">
+                  <div class="col-lg-3 col-md-3  col-sm-6 text-center text-white">
                     <img src="images/profile_4.jpg" alt="prfl-1" class="rounded-circle" height="150px">
                     <h6 class="pt-3">Henry Hughes</h6>
                     <p6 width="150px" style="font-size: 16px;" class="font-italic">« 24h smiles » winner<br>2016 - 2019</p6>
@@ -105,6 +104,7 @@
           </div>
         </section>
     </header>
+
     <!-- 1-homepage carousel section -->
     <section id="Carousel-of-quotes" class="pt-5 text-white text-center">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -174,6 +174,35 @@
           </a>
         </div>
   </section>
+
+  <!-- Most popular tutorials -->
+  <section id="Most-popular" class="pt-5 text-center">
+    <div class="p-5">
+      <p class="text-center" style="font-size: 32px;">Most <strong id="purp-text">popular</strong> tutorials</p>
+      <div class="container row pt-4">
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="">
+          </div>
+          <div class="carousel-item">
+            
+          </div>
+          <div class="carousel-item">
+           
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</section>
+
   <!-- Free membership section -->
   <section id="Free-membership">
     <div class="p-5 text-white">
@@ -201,7 +230,37 @@
             </div>
         </div>
     </div>
-    
   </section>
+  <section>test</section>
+
+  <!-- Footer -->
+  <footer id="footer-color" class="pt-4">
+    <div class="container-lg">
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center my-5">
+          <div class="">
+            <img src="images/smile_off.png" width="30" height="23">
+            <img src="images/logo.png" width="115" height="30">
+          </div>
+          <div>
+            <div class="row">
+                <ul class="list-group list-group-horizontal list-unstyled">
+                    <li>
+                        <img class="px-2 pt-3" src="images/facebook.png">
+                    </li>
+                    <li>
+                        <img class="px-2 pt-3" src="images/twitter.png">
+                    </li>
+                    <li>
+                        <img class="px-2 pt-3" src="images/instagram.png">
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+            <p class="text-center text-white" id="watermark">@smileschool 2020</p>
+        </div>
+    </div>
+  </footer>
 </body>
 </html>
