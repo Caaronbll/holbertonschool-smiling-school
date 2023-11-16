@@ -61,3 +61,8 @@ nav {
     background-position:center;
     background-repeat: no-repeat;
 }
+
+#bottom-row {
+    border-bottom: 1px solid;
+    border-color: darkgray;
+}
